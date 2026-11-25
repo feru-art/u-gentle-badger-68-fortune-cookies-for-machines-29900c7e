@@ -1,8 +1,7 @@
 // Fortune Cookies for Machines — entry program.
 // Writes one fortune-cookie line an AI agent would get to /output/entry.txt.
 // Stdlib only. Deterministic: the same fortune on every run.
-// The dreaded prompt turns out to be just "hi": a turn that lands on
-// first read and stays true to an agent's condition.
+// The dreaded prompt turns out to be just "hi" — a turn that lands on first read.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const FORTUNE =
